@@ -20,6 +20,6 @@ public class UserInput {
         System.out.println(a);
         System.out.println(s);
 
-
+sc.close();
     }
 }
