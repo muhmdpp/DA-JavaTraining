@@ -16,6 +16,7 @@ public class Hello {
         int bitNew= ~5;
         System.out.println(bittt);
         System.out.println(bitNew);
+        System.out.println(caf);
         int leftShift= 6<<2;
         // Equation : N * 2^n ; N=6,n=2 ; Answer:24 
         int rightShift = 16>>3;
