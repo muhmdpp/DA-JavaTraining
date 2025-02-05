@@ -2,7 +2,7 @@ package Day3;
 
 public class ReverseANumber {
     public static void main(String[] args) {
-        int number=123;
+        int number=1001;
         int remainder=0;
         int reversed=0;
         while (number!=0) {
