@@ -17,6 +17,8 @@ public class Vowel {
         }else{
             System.out.println("Invalid Input");
         }
+
+        scan.close();
         
     }
 }
