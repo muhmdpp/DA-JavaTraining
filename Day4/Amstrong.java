@@ -1,3 +1,4 @@
+package Day4;
 public class Amstrong{
     public static void main(String[] args) {
         int val=153;
