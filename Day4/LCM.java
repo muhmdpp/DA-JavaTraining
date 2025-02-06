@@ -8,9 +8,22 @@ public class LCM {
         System.out.println("Enter two numbers");
         int a=sc.nextInt();
         int b=sc.nextInt();
-
-        while (a!=1 && b!=1) {
-            for(int i=2;)
+        int count=1;
+        int max= (a>b)?a:b;
+        // for(int i=2;i<=largest;i++){
+        //     if((a%i==0) || (b%i==0)){
+        //         count*=i;
+                
+        //     }
+        // }
+        // int i=0;
+        while (true) {
+            if(max%a==0 && max%b==0){
+                System.out.println("LCM is: "+max);
+                break;
+            }
+            max++;
         }
+        // System.out.println(count);
     }
 }
