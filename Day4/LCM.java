@@ -8,7 +8,7 @@ public class LCM {
         System.out.println("Enter two numbers");
         int a=sc.nextInt();
         int b=sc.nextInt();
-        int count=1;
+        // int count=1;
         int max= (a>b)?a:b;
         // for(int i=2;i<=largest;i++){
         //     if((a%i==0) || (b%i==0)){
@@ -17,6 +17,7 @@ public class LCM {
         //     }
         // }
         // int i=0;
+        //a=3, b=2
         while (true) {
             if(max%a==0 && max%b==0){
                 System.out.println("LCM is: "+max);
