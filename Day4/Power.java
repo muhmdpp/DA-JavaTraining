@@ -1,4 +1,4 @@
-// package Day4;
+package Day4;
 
 import java.util.Scanner;
 
@@ -15,5 +15,7 @@ public class Power {
     System.out.println(box);
     String s=sc.next();
     System.out.println(s);
+
+    sc.close();
     }
 }

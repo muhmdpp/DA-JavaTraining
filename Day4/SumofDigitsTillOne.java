@@ -1,3 +1,4 @@
+package Day4;
 public class SumofDigitsTillOne {
     public static void main(String[] args) {
 
