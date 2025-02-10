@@ -1,4 +1,4 @@
-package Day6;
+// package Day6;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

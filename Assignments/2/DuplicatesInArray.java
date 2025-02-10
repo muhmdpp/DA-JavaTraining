@@ -1,8 +1,7 @@
-// package Day6;
-
-public class FrequencyCheck {
+public class DuplicatesInArray {
     public static void main(String[] args) {
-        int a[] = { 1, 2, 3, 4, 5, 2, 5, 4 };
+        int[] a={2,3,1,2,3};
+       // int a[] = { 1, 2, 3, 4, 5, 2, 5, 4 };
         int freq[] = new int[a.length];
         for (int i = 0; i < a.length; i++) {
             int count = 1;
@@ -18,8 +17,8 @@ public class FrequencyCheck {
             }
         }
         for(int i=0;i<a.length;i++){
-            if(freq[i]!=-1){
-                System.out.println(a[i]+" comes "+freq[i]+" times ");
+            if(freq[i]>1){
+                System.out.println(a[i]);
             }
         }
     }

@@ -1,4 +1,4 @@
-package Day6;
+// package Day6;
 
 public class SecondMax {
     public static void main(String[] args) {

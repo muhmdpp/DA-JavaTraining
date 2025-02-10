@@ -1,4 +1,4 @@
-package Assignments;
+// package Assignments;
 
 public class NeonNumber {
     public static void main(String[] args) {
