@@ -17,5 +17,6 @@ public class StringBuilder2 {
         sb.replace(0,  sb.capacity(),"Hel");
         System.out.println(sb);
         System.out.println(sb.capacity());
+
     }
 }
